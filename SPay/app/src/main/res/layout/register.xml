@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkSeaGreen"
+    tools:context=".MainActivity"
+    android:id="@+id/back"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="45dp"
+        android:text="SIGN UP"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/signup"
+        android:textColor="@color/Purple"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:id="@+id/number"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="Phone Number"
+        android:textSize="20dp"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/number"
+        android:id="@+id/ansnumber"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Enter 10-digit phone number"
+        android:textSize="20dp"
+        android:background="@drawable/inputborder"
+        android:maxLength="10"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ansnumber"
+        android:id="@+id/uname"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="User Name"
+        android:textSize="20dp"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/uname"
+        android:id="@+id/ansuname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Enter Name"
+        android:textSize="20dp"
+        android:background="@drawable/inputborder"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ansuname"
+        android:id="@+id/pass"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+        android:textSize="20dp"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass"
+        android:id="@+id/anspass"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter Password"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/inputborder"
+        />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/anspass"
+        android:id="@+id/btn"
+        android:text="REGISTER"
+        android:textColor="@color/MidnightBlue"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/Plum"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:text="Back to Login"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/IndianRed"
+        android:id="@+id/tv"
+        />
+
+
+</RelativeLayout>
